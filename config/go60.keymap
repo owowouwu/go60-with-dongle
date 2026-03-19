@@ -117,12 +117,12 @@
 
         osx_nav {
             bindings = <
-&trans  &trans            &trans            &trans            &trans            &trans                                                  &trans         &trans         &trans    &trans        &trans        &trans
-&trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)  &trans                                                  &kp PAGE_DOWN  &kp LG(MINUS)  &kp UP    &kp LG(PLUS)  &kp N0        &kp BSPC
-&trans  &kp LALT          &kp LCTRL         &kp LSHFT         &kp LGUI          &trans                                                  &kp PAGE_DOWN  &kp LEFT       &kp DOWN  &kp RIGHT     &kp LS(DLLR)  &kp LS(A)
-&trans  &kp LG(Z)         &kp LG(X)         &kp LG(C)         &kp LG(V)         &trans                                                  &trans         &trans         &trans    &trans        &trans        &tog 0
-                          &trans            &trans            &trans                                                                                   &trans         &trans    &trans
-                                                                                        &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_BRACKET  &kp LEFT_BRACE    &kp RIGHT_BRACE   &kp RIGHT_BRACKET  &kp N0                                                       &trans         &trans         &trans    &trans        &trans        &trans
+&trans  &kp LC(NUMBER_1)  &kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(NUMBER_4)   &kp CARET                                                    &kp PAGE_DOWN  &kp LG(MINUS)  &kp UP    &kp LG(PLUS)  &kp N0        &kp BSPC
+&trans  &kp LALT          &kp LCTRL         &kp LSHFT         &kp LGUI           &kp PERCENT                                                  &kp PAGE_DOWN  &kp LEFT       &kp DOWN  &kp RIGHT     &kp LS(DLLR)  &kp LS(A)
+&trans  &kp LG(Z)         &kp LG(X)         &kp LG(C)         &kp LG(V)          &kp DOLLAR                                                   &trans         &trans         &trans    &trans        &trans        &tog 0
+                          &trans            &trans            &trans                                                                                         &trans         &trans    &trans
+                                                                                              &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             label = "OSX_NAV";
